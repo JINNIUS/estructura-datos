@@ -23,8 +23,14 @@ while True:
      fecha_nacimiento = input("Ingrese la fecha de nacimiento del alumno en formato dd/mm/aaaa: ")
      alumno = Alumno(nombre, ApellidoPaterno, ApellidoMaterno, fecha_nacimiento)
      alumnos.append(alumno)
-     continuar = input("¿Deseas agregar otro alumno?(si/no): ")
+     continuar = input("¿Deseas agregar otro nombre?(si/no): ") 
      if continuar.lower() == "no":
           break
 for alumno in alumnos:
      print(alumno)
+
+print("\nCURP de los alumnos:")
+
+for alumno in alumnos:
+     curp = f"{alumno.ApellidoMaterno[0]}{alumno.ApellidoPaterno[0]}{alumno.nombre[0]}{alumno.fecha_nacimiento[6:10]}{alumno.fecha_nacimiento[3:5]}{alumno.fecha_nacimiento[0:2]}"
+     print(f"{alumno.nombre} {alumno.ApellidoPaterno} {alumno.ApellidoMaterno}: {curp.upper()}")
