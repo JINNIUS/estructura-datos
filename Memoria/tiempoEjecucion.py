@@ -18,6 +18,7 @@ print("Lista ordenada usando Bubble Sort:", lista_desordenada)
 
 tiempo_ejecucion_final = time.time() - start_time
 print(f"tiempo de ejecucion del algoritmo1{tiempo_ejecucion_final} segundos")
+
 start_time2 = time.time()
 
 def quicksort(arr):

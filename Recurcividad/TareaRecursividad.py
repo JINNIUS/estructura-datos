@@ -5,16 +5,5 @@ def suma_recursiva(arr):
         return arr[0]
     else:
         return arr[0] + suma_recursiva(arr[1:])
-        
 suma = suma_recursiva(arr)
-
 print(suma)
-
-
-"""
-lista=[1,7,0,8,6]
-
-suma=sum(lista)
-
-print(suma)
-"""

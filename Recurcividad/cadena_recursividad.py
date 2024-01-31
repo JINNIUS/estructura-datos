@@ -1,4 +1,6 @@
+#Invertir Cadena de Texto
 def invertir_palabra(palabra):
+    #caso base:
     if len(palabra) == 0:
         return palabra
     else:

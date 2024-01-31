@@ -1,4 +1,6 @@
+#Conteo de Digitos
 def contar_digitos(numero):
+    #caso base:
     if numero < 10:
         return 1
     else:
