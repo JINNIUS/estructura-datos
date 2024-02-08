@@ -13,7 +13,7 @@ for i in range(size):
     identificadores = input("indentification: ")
 
     nombre.append(input_nombre)
-    identificadores.append(input_identificadores)
+    identificadores.append(input_nombre)
 
 print(nombre)
 print(identificadores)
