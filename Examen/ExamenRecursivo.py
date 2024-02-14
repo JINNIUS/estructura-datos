@@ -14,3 +14,5 @@ fin = time.perf_counter()  # Fin de la medición
 print(f"La palabra invertida de {palabra} es {palabra_invertida} por lo tanto es un Palindromo.")
 print(f"Tiempo de ejecución: {fin - inicio:.6f} segundos")
 
+
+
