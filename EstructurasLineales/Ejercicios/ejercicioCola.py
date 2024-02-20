@@ -12,7 +12,7 @@ class SistemasGestionTareas:
     def procesar_tareas(self):
         while self.tareas_pendientes:
             tarea = self.tareas_pendientes.popleft()
-            print("Procesando tarea", tarea)
+            print("Procesando tarea:", tarea)
 
 # Ejemplo de uso
 sistema = SistemasGestionTareas()
